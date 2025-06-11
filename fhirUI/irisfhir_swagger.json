@@ -55747,10 +55747,6 @@
     "title": "InterSystems IRIS FHIR Server Swagger API, R4",
     "version": "unspecified"
   },
-  "host": "iris.zuni.care:32783",
-  "schemes": [
-    "https"
-  ],
   "basePath": "/fhir/r4",
   "tags": [
     {
