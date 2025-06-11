@@ -8,13 +8,13 @@ WORKDIR /home/irisowner/irisdev
 RUN --mount=type=bind,src=.,dst=. \
     iris start IRIS && \
     iris merge IRIS merge.cpf && \
-	iris session IRIS < iris.script && \
+    iris session IRIS < iris.script && \
     iris stop IRIS quietly
 
 
 RUN old=http://localhost:52773/crud/_spec && \
     new=/fhirUI/irisfhir_swagger.json && \
-	sed -i "s|$old|$new|g" /usr/irissys/csp/swagger-ui/index.html
+    sed -i "s|$old|$new|g" /usr/irissys/csp/swagger-ui/swagger-initializer.js
 
 FROM $IMAGE as final
 
