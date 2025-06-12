@@ -229,11 +229,6 @@
                         "code": {
                             "coding": [
                                 {
-                                    "system": "http://snomed.info/sct",
-                                    "code": "441281002",
-                                    "display": "Amount of exudate"
-                                },
-                                {
                                     "system": "http://zuni.care/oids",
                                     "code": "1.3.6.1.4.1.61978.1.1.2",
                                     "display": "Exudate amount"
@@ -244,17 +239,32 @@
                         "valueCodeableConcept": {
                             "coding": [
                                 {
-                                    "system": "http://snomed.info/sct",
-                                    "code": "260347006",
-                                    "display": "Present + out of ++++"
-                                },
-                                {
                                     "system": "http://zuni.care/oids",
                                     "code": "1.3.6.1.4.1.61978.1.1.2.2",
                                     "display": "minimal"
                                 }
                             ],
                             "text": "minimal"
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "441281002",
+                                    "display": "Amount of exudate"
+                                }
+                            ]
+                        },
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260347006",
+                                    "display": "Present + out of ++++"
+                                }
+                            ]
                         }
                     },
                     {
@@ -277,6 +287,43 @@
                                 }
                             ],
                             "text": "hermorrhagic"
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "239164002",
+                                    "display": "Wound discharge"
+                                }
+                            ]
+                        },
+                        "valueBoolean": true
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "763285000",
+                                    "display": "Wound discharge observable"
+                                },
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "703248002",
+                                    "display": "Appearance"
+                                }
+                            ]
+                        },
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "255345002",
+                                    "display": "Hemorrhagic"
+                                }
+                            ]
                         }
                     },
                     {
@@ -317,11 +364,24 @@
                                 {
                                     "system": "http://zuni.care/oids",
                                     "code": "1.3.6.1.4.1.61978.1.1.5.3",
-                                    "display": "elevated"
+                                    "display": "rolled"
                                 }
                             ],
-                            "text": "elevated"
+                            "text": "rolled"
                         }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "449751008",
+                                    "display": "Rolled wound edge"
+                                }
+                            ],
+                            "text": "Rolled wound edge"
+                        },
+                        "valueBoolean": true
                     },
                     {
                         "code": {
@@ -343,6 +403,28 @@
                                 }
                             ],
                             "text": "hyperkeratosis"
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "763286004",
+                                    "display": "Wound edge observable"
+                                }
+                            ],
+                            "text": "Wound edge observable"
+                        },
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "26996000",
+                                    "display": "Hyperkeratosis"
+                                }
+                            ],
+                            "text": "Hyperkeratosis"
                         }
                     },
                     {
@@ -371,6 +453,28 @@
                         "code": {
                             "coding": [
                                 {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "1121000124105",
+                                    "display": "Periwound skin condition"
+                                }
+                            ],
+                            "text": "Periwound skin condition"
+                        },
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "247441003",
+                                    "display": "Erythema"
+                                }
+                            ],
+                            "text": "Erythema"
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
                                     "system": "http://zuni.care/oids",
                                     "code": "1.3.6.1.4.1.61978.1.1.6",
                                     "display": "Wound surrounding"
@@ -387,6 +491,28 @@
                                 }
                             ],
                             "text": "dermatitis"
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "1121000124105",
+                                    "display": "Periwound skin condition"
+                                }
+                            ],
+                            "text": "Periwound skin condition"
+                        },
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "703938007",
+                                    "display": "Inflammatory dermatosis"
+                                }
+                            ],
+                            "text": "Inflammatory dermatosis"
                         }
                     },
                     {
@@ -415,6 +541,28 @@
                         "code": {
                             "coding": [
                                 {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "1191000124107",
+                                    "display": "Wound bed appearance"
+                                }
+                            ],
+                            "text": "Wound bed appearance"
+                        },
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "371244009",
+                                    "display": "Yellow color"
+                                }
+                            ],
+                            "text": "Yellow color"
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
                                     "system": "http://zuni.care/oids",
                                     "code": "1.3.6.1.4.1.61978.1.1.8",
                                     "display": "Wound state"
@@ -432,6 +580,32 @@
                             ],
                             "text": "infected flesh wound"
                         }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "76844004",
+                                    "display": "Local infection of wound"
+                                }
+                            ],
+                            "text": "Local infection of wound"
+                        },
+                        "valueBoolean": true
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "262526004",
+                                    "display": "Wound of skin"
+                                }
+                            ],
+                            "text": "Wound of skin"
+                        },
+                        "valueBoolean": true
                     },
                     {
                         "code": {
@@ -459,9 +633,27 @@
                         "code": {
                             "coding": [
                                 {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "866166001",
+                                    "display": "Wound tunneling"
+                                }
+                            ],
+                            "text": "Wound tunneling"
+                        },
+                        "valueBoolean": true
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
                                     "system": "http://zuni.care/oids",
                                     "code": "1.3.6.1.4.1.61978.1.1.1003",
                                     "display": "Wound depth"
+                                },
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "425094009",
+                                    "display": "Depth of wound"
                                 }
                             ],
                             "text": "Wound depth"
@@ -480,6 +672,11 @@
                                     "system": "http://zuni.care/oids",
                                     "code": "1.3.6.1.4.1.61978.1.1.1004",
                                     "display": "Wound width"
+                                },
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "401239006",
+                                    "display": "Width of wound"
                                 }
                             ],
                             "text": "Wound width"
@@ -498,6 +695,11 @@
                                     "system": "http://zuni.care/oids",
                                     "code": "1.3.6.1.4.1.61978.1.1.1005",
                                     "display": "Wound length"
+                                },
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "401238003",
+                                    "display": "Length of wound"
                                 }
                             ],
                             "text": "Wound length"
